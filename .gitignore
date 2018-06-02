@@ -1,0 +1,6 @@
+#=======================================================#
+# Reglas para ignorar archivos o carpetas               #
+#=======================================================#
+/node_modules
+/public/js
+/public/css
