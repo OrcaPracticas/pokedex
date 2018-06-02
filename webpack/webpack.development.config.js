@@ -16,7 +16,7 @@ const MANIFEST = require("../public/js/modules-manifest.json");
  */
 const CONFIG = {
     entry: {
-        pokedex: PATH.resolve(__dirname, "../app"),
+        pokedex: PATH.resolve(__dirname, "../src/app"),
     },
     output: {
         path: PATH.resolve(__dirname, "../public/js"),
