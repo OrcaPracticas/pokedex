@@ -14,6 +14,9 @@
   },
   "homepage": "https://github.com/OrcaPracticas/pokedex#readme",
   "scripts": {
+      "build:dll": "webpack --mode production --config ./webpack/webpack.dll.config.js",
+      "build:dev": "webpack --mode development --config ./webpack/webpack.development.config.js",
+      "build:prod": "webpack --mode production --config ./webpack/webpack.production.config.js"
   },
   "keywords": [
     "react",
