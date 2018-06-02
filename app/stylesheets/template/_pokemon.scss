@@ -1,0 +1,28 @@
+.pokemon {
+    height: 346px;
+    h1 {
+        margin: 0;
+        color: #fff;
+        font-size: 18px;
+        > small {
+            color: #ccc;
+        }
+    }
+    img {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        max-width: 200px;
+        max-height: 220px;
+    }
+    .panel-body {
+        position: relative;
+        height: 250px;
+    }
+    .pokemon-type {
+        font-size: 22px;
+    }
+}

@@ -1,0 +1,42 @@
+body{
+    padding-top: 50px;
+}
+
+.label {
+  display: inline-block!important;
+}
+    
+.navbar-brand {
+    font-weight: 800;
+    img {
+        display: inline-block;
+        width: 24px;
+    }
+}
+    
+.avatar {
+    max-width: 480px;
+    margin-bottom: 20px;
+}
+    
+.form-group {
+    padding: 10px;
+}
+    
+.error-404 {
+    height: 100%;
+    margin-right: 10px;
+    width: 100%;
+}
+
+.text-success {
+    text-align: center;
+}
+
+.aux {
+    word-wrap: break-word;
+}
+
+.aux-content {
+    height: 120px;
+}
